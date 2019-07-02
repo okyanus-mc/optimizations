@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        gradlePluginPortal()
+    }
+}
+
+if (new File("../../runtime").exists()) {
+    includeBuild("../../runtime") {
+        dependencySubstitution {
+            substitute module('club.issizler.okyanus:runtime') with project(':')
+        }
+    }
+}
