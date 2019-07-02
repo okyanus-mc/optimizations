@@ -1,0 +1,15 @@
+// Okyanus Optimizations Configuration
+
+{
+  // Toggleable optimizations
+  "optimizations.fastExplosions": true,
+  "optimizations.fastRedstone": true,
+
+  // Book limits
+  "limits.book.maxPageSize": 2560,
+  "limits.book.totalSizeMultiplier": 0.98,
+
+  // Packet rate limits
+  "limits.packet.rateLimit": 250,
+  "limits.packet.rateLimitInterval": 10.0 // in seconds
+}

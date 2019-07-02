@@ -1,28 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "okyanus-optimizations",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
+  "name": "Okyanus Optimzations",
+  "description": "Optimizations for Fabric servers",
   "contact": {
-    "homepage": "http://okyanus-mc.github.io/",
-    "sources": "https://github.com/okyanus-mc/advanced-template"
+    "sources": "https://github.com/okyanus-mc/optimizations"
   },
-  "license": "CC0-1.0",
+  "license": "GPLv3",
   "environment": "server",
   "entrypoints": {
     "server": [
-      "club.issizler.template.AdvancedTemplateMod::init"
+      "club.issizler.optimize.Optimize"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mixins.okyanusopt.json"
   ],
   "depends": {
-    "fabricloader": ">=0.4.0",
-    "okyanus": ">=0.1.0"
+    "fabricloader": ">=0.4.0"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "package": "club.issizler.optimize.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.7.11",
+  "server": [
+    "block.BlockPosMixin",
+    "block.RedstoneWireBlockMixin",
+    "blockentity.WorldMixin$CapturedBlockEntityLookup",
+    "blockentity.WorldMixin$UnusedBlockEntityList",
+    "chunkloading.WorldMixin",
+    "debugchecks.PackedIntegerArrayMixin",
+    "entity.TameableEntityMixin",
+    "explosion.ExplosionMixin",
+    "explosion.MinecraftServerMixin",
+    "explosion.ServerWorldMixin",
+    "explosion.WorldMixin",
+    "item.ItemStackMixin",
+    "limit.ClientConnectionMixin",
+    "limit.ServerPlayNetworkHandlerMixin$BookSizeLimit",
+    "limit.ServerPlayNetworkHandlerMixin$PacketRateLimit",
+    "reduceio.RegionFileMixin",
+    "registry.Int2ObjectBiMapMixin",
+    "registry.MaterialsRegistryMixin",
+    "world.MinecraftServerMixin"
+  ]
+}
